@@ -1,5 +1,5 @@
 [[redirects]]
   from = "/cnb-api/*"
-  to = "https://cnb.cz"
+  to = "https://cnb.cz/:splat"
   status = 200
   force = true
