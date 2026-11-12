@@ -11,7 +11,6 @@ export interface ExchangeRateRecord {
 const fetchRawCurrencyExchangeRates = async () => {
   const res = await fetch(CNB_EXCHENGE_RATE_URL)
   if (!res.ok) {
-    console.log("WTF")
     throw new Error(`Server returned status ${res.status}`);
   }
   const payload = await res.text()

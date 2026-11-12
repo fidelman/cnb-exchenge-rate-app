@@ -14,7 +14,7 @@ function App() {
   return (
     <Wrapper>
       <Container>
-        <Title data-testid="title">Central banck exchange rate fixing</Title>
+        <Title data-testid="title">Central bank exchange rate fixing</Title>
         {
           data && <>
             <p data-testid="current-date">Validity for {data.dateStr} (and, where relevant, the following Saturday, Sunday or public holiday)</p>
